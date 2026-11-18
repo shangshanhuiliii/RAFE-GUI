@@ -1,0 +1,10 @@
+{
+  "variant_id": "easyocr-local-bg-v2",
+  "backend": "easyocr",
+  "languages": ["ch_sim", "en"],
+  "detector": "craft",
+  "detect": {"canvas_size": 3200, "mag_ratio": 1.0, "text_threshold": 0.7, "low_text": 0.4, "link_threshold": 0.4, "min_size": 10, "slope_ths": 0.1, "ycenter_ths": 0.5, "height_ths": 0.5, "width_ths": 0.3, "add_margin": 0.0},
+  "expand_pixels": 2,
+  "fill_rgb": [128,128,128],
+  "fill": {"method": "local-background", "ring_pixels": 6, "dominant_fraction": 0.55, "inpaint_radius": 3}
+}

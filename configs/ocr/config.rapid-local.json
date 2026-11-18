@@ -1,0 +1,8 @@
+{
+  "variant_id": "ppocrv5-server-local-bg-v2",
+  "backend": "rapidocr",
+  "rapidocr": {"Det.limit_side_len": 2800, "Det.limit_type": "max", "Det.thresh": 0.3, "Det.box_thresh": 0.5, "Det.unclip_ratio": 1.5, "Det.use_dilation": false},
+  "expand_pixels": 2,
+  "fill_rgb": [128,128,128],
+  "fill": {"method": "local-background", "ring_pixels": 6, "dominant_fraction": 0.55, "inpaint_radius": 3}
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project_root": "..",
+  "experiment_type": "encoders",
+  "paths": {
+    "dataset": "data/dataset",
+    "prepared": "data/prepared/four_methods_v1",
+    "models": "models/models.lock.json",
+    "outputs": "runs"
+  },
+  "variants": [
+    "original",
+    "gray",
+    "local",
+    "gaussian",
+    "texture"
+  ],
+  "preprocessing": [
+    "baseline",
+    "rectangle",
+    "square-pad"
+  ],
+  "metrics": [
+    "siglip",
+    "dino"
+  ],
+  "devices": {
+    "siglip": "cuda:0",
+    "dino": "cuda:1"
+  },
+  "dtype": "float32",
+  "content_width": 252,
+  "content_height": 560,
+  "ocr": {
+    "config": "configs/ocr/config.rapid-cpu.json"
+  }
+}

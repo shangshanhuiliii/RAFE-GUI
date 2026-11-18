@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_root": "..",
+  "experiment_type": "vlm",
+  "paths": {
+    "dataset": "data/dataset",
+    "prepared": "data/prepared/four_methods_v1",
+    "models": "models/models.lock.json",
+    "outputs": "runs"
+  },
+  "variants": [
+    "original"
+  ],
+  "preprocessing": [],
+  "metrics": [
+    "vlm"
+  ],
+  "devices": {
+    "siglip": "cuda:0",
+    "dino": "cuda:1"
+  },
+  "dtype": "float32",
+  "content_width": 252,
+  "content_height": 560,
+  "ocr": {
+    "config": "configs/ocr/config.rapid-cpu.json"
+  },
+  "vlm_protocol": "strict",
+  "manifest": "pairing_schemes/A_full.jsonl",
+  "max_group_images": 16
+}

@@ -1,0 +1,18 @@
+{
+  "upstream": "GUI-CC",
+  "upstream_commit": "6584b0e13e24e409cdedbfddb4f1954050a23db1",
+  "local_extensions_included": true,
+  "runtime_requires_gui_cc": false,
+  "files": {
+    "offline/visual_similarity.py": "0eb691c12f93c284bccbd5c810d2d1c9fd12108109a2a9aaca13ec80adecc161",
+    "offline/judges.py": "dcf686a0385f5a1ce1c8675954b6650c0ee57a84715e0707c8c91c5b6d17108e",
+    "rafe/preprocessing.py": "435907652fb01014ec2586b2b6f188e720d36fb4f750424a3a8eb282d366893e",
+    "rafe/groups.py": "7a90c3e9ed53bdccbef138fba69adeae302f36f780bd4eb8a9f50d60aa9b625a"
+  },
+  "prompt_text_sha256": {
+    "s_ele_lay_system.md": "e5b2bf9b4cc9d20f56efbc8fa6a3ff396ed80141f3a7ec22cd82b28790d43399",
+    "s_ele_lay_user.md": "20cbcf3e1c279fed745ef6de7e723a64ab26e5452fbc84d2815ebb38ff83da10",
+    "rafe_group_system.md": "6f73bcfb21fd06ad8455fbc60f5606a0522458b9c9d20f3a2fd16f2820022fda",
+    "rafe_group_user.md": "be48ff602d2febe7d9067e96309331584340d9bdcf52772359e8df656dc7224c"
+  }
+}
